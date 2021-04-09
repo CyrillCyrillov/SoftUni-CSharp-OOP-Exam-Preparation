@@ -1,11 +1,12 @@
-﻿using Bakery.Utilities.Messages;
+﻿using Bakery.Models.Drinks.Contracts;
+using Bakery.Utilities.Messages;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Bakery.Models.Drinks
 {
-    public abstract class Drink
+    public abstract class Drink : IDrink
     {
         private string name;
         private int portion;
